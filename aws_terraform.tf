@@ -4,7 +4,7 @@ resource "m3_instance" "my-server" {
 	instance_name = "test_mlti-stack-at"
 	region_name = "AZURE-EUS"
 	tenant_name = "AZURE-MPN"
-	shape = "MINI"
+	shape = "SMALL"
 	key_name = "test_at_smoke1"
 	owner = "mytestjar@gmail.com"      
 }
